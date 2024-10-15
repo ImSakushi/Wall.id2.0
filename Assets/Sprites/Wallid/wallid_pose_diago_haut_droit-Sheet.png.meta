@@ -1,0 +1,2318 @@
+fileFormatVersion: 2
+guid: 2b39087f85a07467aae9ad366e9e0eb1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wallid_idle_diago_haut_droit-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4d1c9e29b554e6aa6474266d64dc7b
+      internalID: 1918807030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5704ed06591a849cc93f1df2ea998372
+      internalID: 202044358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d3c3149d54849a995b115dfda10135
+      internalID: 939301666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28565dcc436ee48baba8a5d8e4fdfded
+      internalID: 247640370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1236dfbeddb8b415f9d21e79e275df58
+      internalID: 473689165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905108657aee8490a81d0142cfaef16d
+      internalID: -425249572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569f93a49729b4a8c94bf99565fad9e0
+      internalID: 2036184898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deefa053a7d0848b29099aaaa983de3f
+      internalID: -231640165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aa13d696a5343248611f0956b8e9c0
+      internalID: 1369236405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6190e15d24d9a410b9ee8d5deca7316a
+      internalID: 883212677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2de922272a8479b965c925c552a6ba
+      internalID: 1937594897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89c9403d437142c388c5abbde174d42
+      internalID: 2018493803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4567fda88b00f4b3faa0f95ee11bb4a7
+      internalID: -910523239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595f667789d9542579f77ea06a048388
+      internalID: -10075940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f67fecf188554ef4bb5960194a293ad
+      internalID: -400525992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57164b2c710e4377af32a3c34c3faeb
+      internalID: -760706552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463ad55318b14497ba00d25ca704a5dd
+      internalID: -1504478200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4571df2390e24e1abdd8b93371f38e7
+      internalID: 1123498779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dc2d29459c846589b217befd1ebe65
+      internalID: -845396925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e0a61f611914682a2d076abdfcc7bd
+      internalID: -648401206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad188f75cada4ff6a335393d2342a8c
+      internalID: -331708972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e29c6387fee4b8c89d3bc163dc8ac0
+      internalID: 1159947372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e203f9f64ef4d7b93474cc5f85bc84
+      internalID: -1073508018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7b0aaa44d284d299990dfc086ba3e8
+      internalID: -1099182104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b582a64133ae3438c994ff5e96f73555
+      internalID: 1686643017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c95e4a77c4a84ca4a8c95af96444b60
+      internalID: -859485439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c64485ba1bd4186a556e8c9eef4347
+      internalID: 545557053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df40167eaa9d40ba8468d77f83e8c91
+      internalID: 1964740522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5419153bacf4e85a2ddeb251d7fd62
+      internalID: 667812542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1709367be9054571814355fdf364f5c
+      internalID: 1629700335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957a0282c63b14459b6ade8121cc3f38
+      internalID: -1333167762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436ae29f6092a431a8af74d6d1bd3ed8
+      internalID: 1778313197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd9e618e5a4e44899eede331d36462a
+      internalID: -481470914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f927d4d8c7a734aefb33d57fdb9de21f
+      internalID: -131969071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4f0c3ea61c44960ae44bb1c0fb7296
+      internalID: -1051874695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9506dec95d09d43adbecde8dc27ef243
+      internalID: 555208933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745349abbea6740fa8a06ded10231d38
+      internalID: 51933555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777e5aa93ccbf423ab9272a4d381b4f5
+      internalID: -1767922985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4d51742813c4f0baabe00976b86ef3
+      internalID: -2056447062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60ffcf7b14e2429db7f154aaaee0631
+      internalID: -1887518830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987863beb32814f5fbba04c3fd932176
+      internalID: -1418990870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6fa4b85701041a7b8595078b987405
+      internalID: -116395422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccdd159f8cff4ab98973d7216ce1ff8
+      internalID: 1800142815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c2ccb9fd494435b8296deca3a78cbe
+      internalID: -1392603647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fce4328339cf4642a8cadae55f7d691
+      internalID: -1606758703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc9c01c52dd94dd6b06ca885d8a5fe4
+      internalID: -964511929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9060b01d52d81405ab239ecfcde4d42a
+      internalID: -380213762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acaae2223a6e4998970111d03f21e73
+      internalID: -426130222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3618328f5d84440991bbad879f397a
+      internalID: -1316350770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa7fb737528c43d2a614d73d76d723b
+      internalID: 333465664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b3983fb727c4a05a550254494f6bab
+      internalID: 503315043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632d41c82223434c9854a63b64df998
+      internalID: -254274286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3a7932c859142328eb263f7b452d5b
+      internalID: 966143974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e738549be6d44c1a95cf0dae993b902
+      internalID: 384390746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabd60f1e99bc48a8959393d8ff42862
+      internalID: 775375228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c03ba9e88c05464382979e81d50ec35
+      internalID: 461857046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e7b00fb254e4e67897acad2324abb9
+      internalID: 533481849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c221b3fb579e4f68ac8502ab48a8476
+      internalID: -1607279446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e21d64a27bff4f2c90d9078e6604a1e
+      internalID: 1799708024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7bea41ec9ea4ab997c90fd1def9d3e
+      internalID: 656424267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d918ae882ad14c8faf7d350f0c4eef0
+      internalID: 1064491012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc016c1548cd43eb91d1041a42d0516
+      internalID: 595031417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c93c9e28a0441eb49abe1cfeddb2c
+      internalID: -355467569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac879961e88648149e8f10746cb7f11
+      internalID: 1261947319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c979769cfcba14de8a761d3ad422e16f
+      internalID: -898399506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc61a1b69b7c4b168487592b0318139
+      internalID: -1659425210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c7d9da2ebb948239e4afda62396082
+      internalID: 1649363786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bc7eb5bcb864198acc50e22c182fd5
+      internalID: -785106516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b903b43659074405a02dafd32e936ff
+      internalID: -586363412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59ec6ed9406492db22873d4bc5e938
+      internalID: 567272450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a8922ad56d347afb2c8b440d19dded
+      internalID: 405430738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9b8bda85593456b8ccfdede1c969c9
+      internalID: 1622946202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c460a10231448ddbb54d2f2c999372
+      internalID: 341166522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777261b3e5a794930988b371deca4aa1
+      internalID: 312449696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b8feac87c17448699c3d96ff358d10
+      internalID: 634466889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05608de250da54181ad9a2091a7a3073
+      internalID: 433225681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00970d9fa49848799c11c3eff0c0597
+      internalID: 2048578654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736cd5fac186742bc813e60d69fd7583
+      internalID: 914566189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20c85b5b9ab642e1bf7f0b2d3918fca
+      internalID: -150404027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99870d4a3dbeb443597f79e069cf0eee
+      internalID: -1671628135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48052e1a8e2e84fd586e1cf697162525
+      internalID: -1152907028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd634c39e583446a898680fb90f3c70f
+      internalID: 1427374542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2768324d0b78c444b912570fe8036124
+      internalID: 82140571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f36781f5b0a4e8fa496dded7c717a1
+      internalID: -1426222855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f1b64fce04c4e7f90ca622126f7207
+      internalID: -517931758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5e0e3999abc474f8ca7833ec699746
+      internalID: -112583469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b8d341c1c884c108815244c98bc5df
+      internalID: 270939431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e648451f8678341bcb9b78e3b1415929
+      internalID: -1077001591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab6069287b554d67a4343a731d25161
+      internalID: 9958273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7161ade86524a57a50fb111de313f2
+      internalID: 1424946981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaf226dda00c49bdad4b4f158aad4de
+      internalID: -1594651563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038c61824e93545a09eef620e704f6fc
+      internalID: -1627098758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a29385e59fb475cb4737a6d90d096b
+      internalID: 1232407463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75677d87dd3bc48af90b97473eda5a78
+      internalID: -1592515378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 3014
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdca5a0abf94c49e3a0fdb3305833070
+      internalID: -991862920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ff869175f4f45df86eac71787fd4fe
+      internalID: 1595699471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef7d47411d3348579f216c6039e7140
+      internalID: 2131120969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea29593e48175473bb0cd73bad42097b
+      internalID: -289133305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallid_pose_diago_haut_droit-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f4963eca0794aafb7d29791174012c
+      internalID: -762435405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      wallid_idle_diago_haut_droit-Sheet_0: 1918807030
+      wallid_pose_diago_haut_droit-Sheet_1: 202044358
+      wallid_pose_diago_haut_droit-Sheet_10: 1937594897
+      wallid_pose_diago_haut_droit-Sheet_11: 2018493803
+      wallid_pose_diago_haut_droit-Sheet_12: -910523239
+      wallid_pose_diago_haut_droit-Sheet_13: -10075940
+      wallid_pose_diago_haut_droit-Sheet_14: -400525992
+      wallid_pose_diago_haut_droit-Sheet_15: -760706552
+      wallid_pose_diago_haut_droit-Sheet_16: -1504478200
+      wallid_pose_diago_haut_droit-Sheet_17: 1123498779
+      wallid_pose_diago_haut_droit-Sheet_18: -845396925
+      wallid_pose_diago_haut_droit-Sheet_19: -648401206
+      wallid_pose_diago_haut_droit-Sheet_2: 939301666
+      wallid_pose_diago_haut_droit-Sheet_20: -331708972
+      wallid_pose_diago_haut_droit-Sheet_21: 1159947372
+      wallid_pose_diago_haut_droit-Sheet_22: -1073508018
+      wallid_pose_diago_haut_droit-Sheet_23: -1099182104
+      wallid_pose_diago_haut_droit-Sheet_24: 1686643017
+      wallid_pose_diago_haut_droit-Sheet_25: -859485439
+      wallid_pose_diago_haut_droit-Sheet_26: 545557053
+      wallid_pose_diago_haut_droit-Sheet_27: 1964740522
+      wallid_pose_diago_haut_droit-Sheet_28: 667812542
+      wallid_pose_diago_haut_droit-Sheet_29: 1629700335
+      wallid_pose_diago_haut_droit-Sheet_3: 247640370
+      wallid_pose_diago_haut_droit-Sheet_30: -1333167762
+      wallid_pose_diago_haut_droit-Sheet_31: 1778313197
+      wallid_pose_diago_haut_droit-Sheet_32: -481470914
+      wallid_pose_diago_haut_droit-Sheet_33: -131969071
+      wallid_pose_diago_haut_droit-Sheet_34: -1051874695
+      wallid_pose_diago_haut_droit-Sheet_35: 555208933
+      wallid_pose_diago_haut_droit-Sheet_36: 51933555
+      wallid_pose_diago_haut_droit-Sheet_37: -1767922985
+      wallid_pose_diago_haut_droit-Sheet_38: -2056447062
+      wallid_pose_diago_haut_droit-Sheet_39: -1887518830
+      wallid_pose_diago_haut_droit-Sheet_4: 473689165
+      wallid_pose_diago_haut_droit-Sheet_40: -1418990870
+      wallid_pose_diago_haut_droit-Sheet_41: -116395422
+      wallid_pose_diago_haut_droit-Sheet_42: 1800142815
+      wallid_pose_diago_haut_droit-Sheet_43: -1392603647
+      wallid_pose_diago_haut_droit-Sheet_44: -1606758703
+      wallid_pose_diago_haut_droit-Sheet_45: -964511929
+      wallid_pose_diago_haut_droit-Sheet_46: -380213762
+      wallid_pose_diago_haut_droit-Sheet_47: -426130222
+      wallid_pose_diago_haut_droit-Sheet_48: -1316350770
+      wallid_pose_diago_haut_droit-Sheet_49: 333465664
+      wallid_pose_diago_haut_droit-Sheet_5: -425249572
+      wallid_pose_diago_haut_droit-Sheet_50: 503315043
+      wallid_pose_diago_haut_droit-Sheet_51: -254274286
+      wallid_pose_diago_haut_droit-Sheet_52: 966143974
+      wallid_pose_diago_haut_droit-Sheet_53: 384390746
+      wallid_pose_diago_haut_droit-Sheet_54: 775375228
+      wallid_pose_diago_haut_droit-Sheet_55: 461857046
+      wallid_pose_diago_haut_droit-Sheet_56: 533481849
+      wallid_pose_diago_haut_droit-Sheet_57: -1607279446
+      wallid_pose_diago_haut_droit-Sheet_58: 1799708024
+      wallid_pose_diago_haut_droit-Sheet_59: 656424267
+      wallid_pose_diago_haut_droit-Sheet_6: 2036184898
+      wallid_pose_diago_haut_droit-Sheet_60: 1064491012
+      wallid_pose_diago_haut_droit-Sheet_61: 595031417
+      wallid_pose_diago_haut_droit-Sheet_62: -355467569
+      wallid_pose_diago_haut_droit-Sheet_63: 1261947319
+      wallid_pose_diago_haut_droit-Sheet_64: -898399506
+      wallid_pose_diago_haut_droit-Sheet_65: -1659425210
+      wallid_pose_diago_haut_droit-Sheet_66: 1649363786
+      wallid_pose_diago_haut_droit-Sheet_67: -785106516
+      wallid_pose_diago_haut_droit-Sheet_68: -586363412
+      wallid_pose_diago_haut_droit-Sheet_69: 567272450
+      wallid_pose_diago_haut_droit-Sheet_7: -231640165
+      wallid_pose_diago_haut_droit-Sheet_70: 405430738
+      wallid_pose_diago_haut_droit-Sheet_71: 1622946202
+      wallid_pose_diago_haut_droit-Sheet_72: 341166522
+      wallid_pose_diago_haut_droit-Sheet_73: 312449696
+      wallid_pose_diago_haut_droit-Sheet_74: 634466889
+      wallid_pose_diago_haut_droit-Sheet_75: 433225681
+      wallid_pose_diago_haut_droit-Sheet_76: 2048578654
+      wallid_pose_diago_haut_droit-Sheet_77: 914566189
+      wallid_pose_diago_haut_droit-Sheet_78: -150404027
+      wallid_pose_diago_haut_droit-Sheet_79: -1671628135
+      wallid_pose_diago_haut_droit-Sheet_8: 1369236405
+      wallid_pose_diago_haut_droit-Sheet_80: -1152907028
+      wallid_pose_diago_haut_droit-Sheet_81: 1427374542
+      wallid_pose_diago_haut_droit-Sheet_82: 82140571
+      wallid_pose_diago_haut_droit-Sheet_83: -1426222855
+      wallid_pose_diago_haut_droit-Sheet_84: -517931758
+      wallid_pose_diago_haut_droit-Sheet_85: -112583469
+      wallid_pose_diago_haut_droit-Sheet_86: 270939431
+      wallid_pose_diago_haut_droit-Sheet_87: -1077001591
+      wallid_pose_diago_haut_droit-Sheet_88: 9958273
+      wallid_pose_diago_haut_droit-Sheet_89: 1424946981
+      wallid_pose_diago_haut_droit-Sheet_9: 883212677
+      wallid_pose_diago_haut_droit-Sheet_90: -1594651563
+      wallid_pose_diago_haut_droit-Sheet_91: -1627098758
+      wallid_pose_diago_haut_droit-Sheet_92: 1232407463
+      wallid_pose_diago_haut_droit-Sheet_93: -1592515378
+      wallid_pose_diago_haut_droit-Sheet_94: -991862920
+      wallid_pose_diago_haut_droit-Sheet_95: 1595699471
+      wallid_pose_diago_haut_droit-Sheet_96: 2131120969
+      wallid_pose_diago_haut_droit-Sheet_97: -289133305
+      wallid_pose_diago_haut_droit-Sheet_98: -762435405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

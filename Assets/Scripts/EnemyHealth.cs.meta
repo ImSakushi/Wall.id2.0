@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e2f505ea4b31449169ce8b1aba72b381
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - damageSound: {instanceID: 0}
+  - deathSound: {instanceID: 0}
+  - explosionPrefab: {instanceID: 0}
+  - metalPrefab: {fileID: 2683956749235044570, guid: 9a3c9539744a54e6d8b483fe5b4c2399,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

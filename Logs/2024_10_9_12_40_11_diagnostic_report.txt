@@ -1,0 +1,50 @@
+Unity Package Manager Diagnostics (v0.3.0)
+============
+Ran 7 checks
+============
+5 succeeded
+2 did not run
+============
+✅ UPM registry reachable (PASS)
+Make an HTTP request to the UPM package registry
+>> HTTP/1.1 200 OK
+>> X-Powered-By: Express
+>> X-Cloud-Trace-Context: 160274c362ddcee699f40412aae37a3f/5774401178311720537
+>> Provider: Genesis
+>> Date: Wed, 09 Oct 2024 12:40:20 GMT
+>> Via: 1.1 google
+>> Transfer-Encoding: chunked
+>> Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+>> Connection: close
+
+✅ Ping UPM registry (PASS)
+Measure the latency of the UPM package registry API
+>> 15 pings made in 5.225 seconds
+>> Average latency: 45.73 ms
+>> Minimum latency: 19.41 ms
+>> Maximum latency: 379.35 ms
+>> Standard deviation: 92.40
+
+✅ Ping UPM download (PASS)
+Measure the latency of the UPM package download endpoint
+>> 11 pings made in 5.165 seconds
+>> Average latency: 31.98 ms
+>> Minimum latency: 30.41 ms
+>> Maximum latency: 37.33 ms
+>> Standard deviation: 1.89
+
+✅ UPM registry download speed (PASS)
+Test the Internet connection using the UPM package registry
+>> Measured speed to the UPM registry: 97.44 Megabits per second
+
+✅ HTTP proxy environment variables (PASS)
+Detect whether proxy-related environment variables are set (HTTP_PROXY, HTTPS_PROXY, ALL_PROXY, NO_PROXY, UNITY_PROXYSERVER, UNITY_NOPROXY)
+>> No proxy support has been configured through environment variables.
+
+❓ System Proxy configuration (UNKNOWN)
+Detect proxy configuration at the system level
+>> The proxy auto configuration feature is not enabled.
+
+❓ UPM health check (UNKNOWN)
+Start the UPM process and call its health endpoint
+>> Could not find UPM executable at path '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager'
