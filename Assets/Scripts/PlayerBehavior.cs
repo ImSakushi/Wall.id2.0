@@ -81,10 +81,14 @@ public class PlayerBehavior : MonoBehaviour
     [Header("Glow Settings")]
     public SpriteRenderer glowRenderer;
     public float glowRadius = 1.5f;
-    private Camera mainCamera;
+    public Camera mainCamera;
 
     [Header("Dash Effects")]
     public GameObject smokeTrailPrefab; // Ajouté
+
+    // Variables pour la secousse de la caméra
+    private Vector3 originalCameraPosition;
+    private Coroutine cameraShakeCoroutine = null;
 
     void Awake()
     {
@@ -96,6 +100,16 @@ public class PlayerBehavior : MonoBehaviour
         if (trailRenderer != null) trailRenderer.enabled = false;
         if (cameraZoom == null) Debug.LogWarning("CameraZoom non assigné dans PlayerBehavior.");
         if (glowRenderer == null) Debug.LogWarning("Glow Renderer is not assigned dans PlayerBehavior.");
+
+        // Stocker la position initiale de la caméra
+        if (mainCamera != null)
+        {
+            originalCameraPosition = mainCamera.transform.position;
+        }
+        else
+        {
+            Debug.LogError("Main Camera non trouvée dans la scène.");
+        }
     }
 
     void FixedUpdate()
@@ -204,15 +218,21 @@ public class PlayerBehavior : MonoBehaviour
 
         ChangeSpriteToMatchDirection();
 
+        // Tir avec le bouton gauche de la souris
         if (Input.GetMouseButtonDown(0) && timeSinceLastFireball >= fireballCooldown)
         {
             ShootProjectile(m_fireBall, fireballFiringSound);
+            // Secousse de petite intensité
+            ShakeCamera(0.1f, 0.1f);
             timeSinceLastFireball = 0.0f;
         }
 
+        // Tir avec le bouton droit de la souris
         if (Input.GetMouseButtonDown(1) && timeSinceLastDroite <= 0)
         {
             ShootProjectile(m_droiteBall, droiteFiringSound);
+            // Secousse de plus grande intensité
+            ShakeCamera(0.2f, 0.2f);
             timeSinceLastDroite = droiteCooldown;
         }
 
@@ -524,5 +544,44 @@ public class PlayerBehavior : MonoBehaviour
         glowRenderer.transform.localPosition = direction * glowRadius;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         glowRenderer.transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+    }
+
+    /// <summary>
+    /// Applique une secousse à la caméra.
+    /// </summary>
+    /// <param name="duration">Durée de la secousse en secondes.</param>
+    /// <param name="magnitude">Intensité de la secousse.</param>
+    public void ShakeCamera(float duration, float magnitude)
+    {
+        if (cameraShakeCoroutine != null)
+            StopCoroutine(cameraShakeCoroutine);
+
+        cameraShakeCoroutine = StartCoroutine(ShakeCameraCoroutine(duration, magnitude));
+    }
+
+    private IEnumerator ShakeCameraCoroutine(float duration, float magnitude)
+    {
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            float x = Random.Range(-1f, 1f) * magnitude;
+            float y = Random.Range(-1f, 1f) * magnitude;
+
+            if (mainCamera != null)
+            {
+                mainCamera.transform.position = originalCameraPosition + new Vector3(x, y, 0f);
+            }
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        if (mainCamera != null)
+        {
+            mainCamera.transform.position = originalCameraPosition;
+        }
+
+        cameraShakeCoroutine = null;
     }
 }
